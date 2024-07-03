@@ -1,18 +1,39 @@
 body{
-    background-color: skyblue;
+    background-color: white;
 }
-.first h1{
+.first{
+    display: flex;
+}
+.text {
+    padding: 40px;
+}
+.text h1{
+    width: 20rem;
+}
+.text .edition{
+    font-size: 40px;
+    color: aquamarine;
+}
+.text p{
     width: 30rem;
 }
-.first p{
-    width: 35rem;
-}
-.first .button{
-    display: flex;
-    margin-bottom: 5rem;
-    justify-content: space-around;
-}
-.first .button .meta1{
+.button a{
     text-decoration: none;
-    background-color: rgb(128, 30, 0);
+    background-color: teal;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.grid {
+    max max-width: 50%;
+}
+.grid img {
+    width: 30rem;
+    height: 100%;
+    border-radius: 3rem;
 }
