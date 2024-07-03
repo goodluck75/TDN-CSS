@@ -1,5 +1,10 @@
 body{
     background-color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 .first{
     display: flex;
@@ -10,9 +15,8 @@ body{
 .text h1{
     width: 20rem;
 }
-.text .edition{
-    font-size: 40px;
-    color: aquamarine;
+.edition{
+    font-size: 1rem
 }
 .text p{
     width: 30rem;
@@ -22,15 +26,16 @@ body{
     background-color: teal;
     color: white;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
-    padding-right: 10px;
     padding-left: 20px;
+    padding-right: 10px;
     margin-right: 20px;
+    margin-top: 20rem;
 }
 .grid {
-    max max-width: 50%;
+    width: 50px;
 }
 .grid img {
     width: 30rem;
