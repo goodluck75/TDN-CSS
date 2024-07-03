@@ -2,17 +2,17 @@ body{
     background-color: aliceblue;
 }
 .first h1{
-    width: 35rem;
-    
+    width: 30rem;
 }
 .first p{
     width: 35rem;
 }
-.first .button{  
+.first .button{
     display: flex;
-    margin-bottom: 5rem
-
+    margin-bottom: 5rem;
+    justify-content: space-around;
 }
-.first .button .meta1{
-    text-decoration: ;
+.first .button .metal{
+    text-decoration: none;
+    background-color: teal;
 }
