@@ -88,6 +88,7 @@ body{
     /* height: 70%; */
     /* width: 100%; */
     color: white;
+
 }
 .head{
     padding-left: 21rem;
@@ -109,3 +110,35 @@ body{
     text-decoration: none;
     font-weight: bolder;
 }
+/* my styling start here */
+.fourth {
+    margin-top: 5rem;
+}
+.meta {
+    display: flex;
+    gap: 7rem;
+    padding-top: 3rem;
+}
+.meta2 {
+    display: flex;
+    gap: 7rem;
+    padding-top: 3rem;
+}
+.fifth {
+    margin-left: 20rem;
+    line-height: 10rem;
+    margin-top: 7rem;
+}
+.fifth .meta a{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: TEAL;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+}
+
