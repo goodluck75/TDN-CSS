@@ -2,15 +2,18 @@
     font-family: "Nunito", san-serif;
 }
 body{
-
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-content: center;
+    background-color: aliceblue;
     height: 50vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top{
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 120px;
 }
 /* .Navbar styling start here*/
 .wrapper{
@@ -20,8 +23,11 @@ body{
     height: 50px;
     margin-bottom: 200px;
     align-items: center;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .icon img{
     width: 10rem;
@@ -112,7 +118,7 @@ body{
 }
 /* my styling start here */
 .fourth {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 .meta {
     display: flex;
@@ -125,8 +131,8 @@ body{
     padding-top: 3rem;
 }
 .fifth {
-    margin-left: 20rem;
-    line-height: 10rem;
+    margin-left: 25rem;
+    line-height: 2rem;
     margin-top: 7rem;
 }
 .fifth .meta a{
@@ -140,5 +146,29 @@ body{
     border-radius: 1rem;
     margin-left: 12rem;
     font-weight: bolder;
+}
+.down {
+    background-color: white;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50;
+    padding-bottom: 50px;
+    margin-top: 7rem;
+}
+.last ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 4px;
+}
+.last .dummy{
+    line-height: 4rem;
+}
+.last .dummy a{
+text-decoration: none;
+color: black;
 }
 
